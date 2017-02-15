@@ -33,7 +33,7 @@ return function()
     M.events[#M.events + 1] = { event = event, id = 0, payload = payload }
   end
 
-  --FIXME 给麻将用的临时方法，其他游戏千万别用！！！！！
+
   --加入分组
   M.join = function(groupid)
     local engine = require('majiang.engine')
