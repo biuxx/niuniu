@@ -72,7 +72,7 @@ return function()
       end
     end
   end
-  --FIXME 给麻将用的临时方法，其他游戏千万别用！！！！！
+
 
   return M
 end
